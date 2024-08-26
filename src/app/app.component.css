@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1f2d3d; /* Azul-escuro principal */
+}
+
+.header {
+  background-color: #1f2d3d; /* Mantém o azul mais escuro */
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p-menubar {
+  background-color: #243447; /* Azul-escuro mais destacado */
+  border-radius: 5px;
+}
+
+.content-container {
+  flex: 1;
+  padding: 30px;
+  background-color: #2b3a4a; /* Fundo ligeiramente mais claro */
+  color: #cfd8dc; /* Texto em cinza claro */
+}
+
+.footer {
+  background-color: #1f2d3d;
+  text-align: center;
+  padding: 15px;
+  color: #90caf9; /* Azul claro */
+  border-top: 1px solid #0d2538;
+  font-size: 0.9em;
+}
+
+.active-link {
+  color: #90caf9 !important; /* Destaque azul claro para links ativos */
+  font-weight: bold;
+}
